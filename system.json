@@ -1,0 +1,27 @@
+{
+  "id": "deathwatch-v13",
+  "title": "Deathwatch (Foundry V13)",
+  "description": "Unofficial Foundry VTT System for Dark Heresy 2nd Edition, updated for Foundry V13.",
+  "version": "4.3.2.1",
+  "minimumCoreVersion": 13,
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13,
+    "maximum": 13
+  },
+  "templateVersion": 2,
+  "authors": [
+    {
+      "name": "Vendare (updated)"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": null,
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/yourname/Deathwatch-v13",
+  "socket": true,
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
