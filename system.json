@@ -1,27 +1,33 @@
 {
-  "id": "deathwatch-v13",
+  "name": "deathwatch-v13",
   "title": "Deathwatch (Foundry V13)",
-  "description": "Unofficial Foundry VTT System for Dark Heresy 2nd Edition, updated for Foundry V13.",
-  "version": "4.3.2.1",
-  "minimumCoreVersion": 13,
-  "compatibility": {
-    "minimum": 13,
-    "verified": 13,
-    "maximum": 13
-  },
-  "templateVersion": 2,
+  "description": "Sistema Deathwatch adaptado para Foundry V13",
+  "version": "0.1.0",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "url": "https://github.com/Luna-bit-br/DeathwatchVTT-V13",
   "authors": [
     {
-      "name": "Vendare (updated)"
+      "name": "Seu Nome",
+      "url": "https://github.com/SeuUsuario"
     }
   ],
-  "gridDistance": 1,
-  "gridUnits": "m",
-  "primaryTokenAttribute": null,
-  "secondaryTokenAttribute": null,
-  "url": "https://github.com/yourname/Deathwatch-v13",
-  "socket": true,
-  "manifest": "https://raw.githubusercontent.com/Luna-bit-br/DeathwatchVTT-V13/master/system.json",
+
+  "manifest": "https://raw.githubusercontent.com/Luna-bit-br/DeathwatchVTT-V13/main/system.json",
   "download": "https://github.com/Luna-bit-br/DeathwatchVTT-V13/archive/refs/heads/main.zip",
-  "license": "LICENSE.txt"
+
+  "system": {
+    "scripts": ["scripts/main.js"],
+    "esmodules": ["scripts/module.js"],
+    "styles": ["styles/system.css"]
+  },
+
+  "packs": [],
+  "languages": [],
+  "gridUnits": "m",
+  "gridDistance": 5,
+  "userAgents": {
+    "pc": "desktop",
+    "mobile": "mobile"
+  }
 }
