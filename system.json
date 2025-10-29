@@ -1,15 +1,15 @@
 {
-  "name": "deathwatch-v13",
+  "id": "deathwatch-v13",
   "title": "Deathwatch (Foundry V13)",
   "description": "Sistema Deathwatch adaptado para Foundry V13",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "minimumCoreVersion": "13",
   "compatibleCoreVersion": "13",
   "url": "https://github.com/Luna-bit-br/DeathwatchVTT-V13",
   "authors": [
     {
-      "name": "Seu Nome",
-      "url": "https://github.com/SeuUsuario"
+      "name": "Luna",
+      "url": "https://github.com/Luna-bit-br"
     }
   ],
 
