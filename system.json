@@ -3,10 +3,15 @@
   "title": "Deathwatch (Foundry V13)",
   "description": "Sistema Deathwatch adaptado para Foundry V13",
   "version": "1.0.0",
-    "manifest": "https://raw.githubusercontent.com/Luna-bit-br/DeathwatchVTT-V13/main/system.json",
-    "download": "https://github.com/Luna-bit-br/DeathwatchVTT-V13/archive/refs/heads/main.zip",
-  "minimumCoreVersion": "13",
-  "compatibleCoreVersion": "13",
+
+  "manifest": "https://raw.githubusercontent.com/Luna-bit-br/DeathwatchVTT-V13/main/system.json",
+  "download": "https://github.com/Luna-bit-br/DeathwatchVTT-V13/archive/refs/heads/main.zip",
+
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+
   "url": "https://github.com/Luna-bit-br/DeathwatchVTT-V13",
   "authors": [
     {
@@ -15,18 +20,12 @@
     }
   ],
 
-  "system": {
-    "scripts": ["scripts/main.js"],
-    "esmodules": ["scripts/module.js"],
-    "styles": ["styles/system.css"]
-  },
+  "esmodules": ["scripts/module.js"],
+  "scripts": ["scripts/main.js"],
+  "styles": ["styles/system.css"],
 
   "packs": [],
   "languages": [],
   "gridUnits": "m",
-  "gridDistance": 5,
-  "userAgents": {
-    "pc": "desktop",
-    "mobile": "mobile"
-  }
+  "gridDistance": 5
 }
