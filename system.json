@@ -14,7 +14,7 @@
   ],
 
   "manifest": "https://raw.githubusercontent.com/Luna-bit-br/DeathwatchVTT-V13/main/system.json",
-  "download": "https://github.com/Luna-bit-br/DeathwatchVTT-V13/archive/refs/heads/main.zip"
+
 
   "system": {
     "scripts": ["scripts/main.js"],
